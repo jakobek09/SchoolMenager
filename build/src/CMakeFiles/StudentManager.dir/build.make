@@ -73,67 +73,83 @@ src/CMakeFiles/StudentManager.dir/main.cpp.obj: src/CMakeFiles/StudentManager.di
 src/CMakeFiles/StudentManager.dir/main.cpp.obj: C:/Users/jakub/OneDrive/Desktop/GITrep/Projekt/src/main.cpp
 src/CMakeFiles/StudentManager.dir/main.cpp.obj: src/CMakeFiles/StudentManager.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/StudentManager.dir/main.cpp.obj"
-	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\src && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/StudentManager.dir/main.cpp.obj -MF CMakeFiles\StudentManager.dir\main.cpp.obj.d -o CMakeFiles\StudentManager.dir\main.cpp.obj -c C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\src\main.cpp
+	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/StudentManager.dir/main.cpp.obj -MF CMakeFiles\StudentManager.dir\main.cpp.obj.d -o CMakeFiles\StudentManager.dir\main.cpp.obj -c C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\src\main.cpp
 
 src/CMakeFiles/StudentManager.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentManager.dir/main.cpp.i"
-	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\src && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\src\main.cpp > CMakeFiles\StudentManager.dir\main.cpp.i
+	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\src\main.cpp > CMakeFiles\StudentManager.dir\main.cpp.i
 
 src/CMakeFiles/StudentManager.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentManager.dir/main.cpp.s"
-	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\src && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\src\main.cpp -o CMakeFiles\StudentManager.dir\main.cpp.s
+	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\src\main.cpp -o CMakeFiles\StudentManager.dir\main.cpp.s
 
 src/CMakeFiles/StudentManager.dir/Admin.cpp.obj: src/CMakeFiles/StudentManager.dir/flags.make
 src/CMakeFiles/StudentManager.dir/Admin.cpp.obj: src/CMakeFiles/StudentManager.dir/includes_CXX.rsp
 src/CMakeFiles/StudentManager.dir/Admin.cpp.obj: C:/Users/jakub/OneDrive/Desktop/GITrep/Projekt/src/Admin.cpp
 src/CMakeFiles/StudentManager.dir/Admin.cpp.obj: src/CMakeFiles/StudentManager.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/StudentManager.dir/Admin.cpp.obj"
-	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\src && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/StudentManager.dir/Admin.cpp.obj -MF CMakeFiles\StudentManager.dir\Admin.cpp.obj.d -o CMakeFiles\StudentManager.dir\Admin.cpp.obj -c C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\src\Admin.cpp
+	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/StudentManager.dir/Admin.cpp.obj -MF CMakeFiles\StudentManager.dir\Admin.cpp.obj.d -o CMakeFiles\StudentManager.dir\Admin.cpp.obj -c C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\src\Admin.cpp
 
 src/CMakeFiles/StudentManager.dir/Admin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentManager.dir/Admin.cpp.i"
-	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\src && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\src\Admin.cpp > CMakeFiles\StudentManager.dir\Admin.cpp.i
+	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\src\Admin.cpp > CMakeFiles\StudentManager.dir\Admin.cpp.i
 
 src/CMakeFiles/StudentManager.dir/Admin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentManager.dir/Admin.cpp.s"
-	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\src && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\src\Admin.cpp -o CMakeFiles\StudentManager.dir\Admin.cpp.s
+	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\src\Admin.cpp -o CMakeFiles\StudentManager.dir\Admin.cpp.s
 
 src/CMakeFiles/StudentManager.dir/Course.cpp.obj: src/CMakeFiles/StudentManager.dir/flags.make
 src/CMakeFiles/StudentManager.dir/Course.cpp.obj: src/CMakeFiles/StudentManager.dir/includes_CXX.rsp
 src/CMakeFiles/StudentManager.dir/Course.cpp.obj: C:/Users/jakub/OneDrive/Desktop/GITrep/Projekt/src/Course.cpp
 src/CMakeFiles/StudentManager.dir/Course.cpp.obj: src/CMakeFiles/StudentManager.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/StudentManager.dir/Course.cpp.obj"
-	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\src && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/StudentManager.dir/Course.cpp.obj -MF CMakeFiles\StudentManager.dir\Course.cpp.obj.d -o CMakeFiles\StudentManager.dir\Course.cpp.obj -c C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\src\Course.cpp
+	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/StudentManager.dir/Course.cpp.obj -MF CMakeFiles\StudentManager.dir\Course.cpp.obj.d -o CMakeFiles\StudentManager.dir\Course.cpp.obj -c C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\src\Course.cpp
 
 src/CMakeFiles/StudentManager.dir/Course.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentManager.dir/Course.cpp.i"
-	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\src && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\src\Course.cpp > CMakeFiles\StudentManager.dir\Course.cpp.i
+	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\src\Course.cpp > CMakeFiles\StudentManager.dir\Course.cpp.i
 
 src/CMakeFiles/StudentManager.dir/Course.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentManager.dir/Course.cpp.s"
-	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\src && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\src\Course.cpp -o CMakeFiles\StudentManager.dir\Course.cpp.s
+	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\src\Course.cpp -o CMakeFiles\StudentManager.dir\Course.cpp.s
 
 src/CMakeFiles/StudentManager.dir/Teacher.cpp.obj: src/CMakeFiles/StudentManager.dir/flags.make
 src/CMakeFiles/StudentManager.dir/Teacher.cpp.obj: src/CMakeFiles/StudentManager.dir/includes_CXX.rsp
 src/CMakeFiles/StudentManager.dir/Teacher.cpp.obj: C:/Users/jakub/OneDrive/Desktop/GITrep/Projekt/src/Teacher.cpp
 src/CMakeFiles/StudentManager.dir/Teacher.cpp.obj: src/CMakeFiles/StudentManager.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/StudentManager.dir/Teacher.cpp.obj"
-	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\src && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/StudentManager.dir/Teacher.cpp.obj -MF CMakeFiles\StudentManager.dir\Teacher.cpp.obj.d -o CMakeFiles\StudentManager.dir\Teacher.cpp.obj -c C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\src\Teacher.cpp
+	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/StudentManager.dir/Teacher.cpp.obj -MF CMakeFiles\StudentManager.dir\Teacher.cpp.obj.d -o CMakeFiles\StudentManager.dir\Teacher.cpp.obj -c C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\src\Teacher.cpp
 
 src/CMakeFiles/StudentManager.dir/Teacher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentManager.dir/Teacher.cpp.i"
-	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\src && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\src\Teacher.cpp > CMakeFiles\StudentManager.dir\Teacher.cpp.i
+	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\src\Teacher.cpp > CMakeFiles\StudentManager.dir\Teacher.cpp.i
 
 src/CMakeFiles/StudentManager.dir/Teacher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentManager.dir/Teacher.cpp.s"
-	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\src && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\src\Teacher.cpp -o CMakeFiles\StudentManager.dir\Teacher.cpp.s
+	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\src\Teacher.cpp -o CMakeFiles\StudentManager.dir\Teacher.cpp.s
+
+src/CMakeFiles/StudentManager.dir/Student.cpp.obj: src/CMakeFiles/StudentManager.dir/flags.make
+src/CMakeFiles/StudentManager.dir/Student.cpp.obj: src/CMakeFiles/StudentManager.dir/includes_CXX.rsp
+src/CMakeFiles/StudentManager.dir/Student.cpp.obj: C:/Users/jakub/OneDrive/Desktop/GITrep/Projekt/src/Student.cpp
+src/CMakeFiles/StudentManager.dir/Student.cpp.obj: src/CMakeFiles/StudentManager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/StudentManager.dir/Student.cpp.obj"
+	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/StudentManager.dir/Student.cpp.obj -MF CMakeFiles\StudentManager.dir\Student.cpp.obj.d -o CMakeFiles\StudentManager.dir\Student.cpp.obj -c C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\src\Student.cpp
+
+src/CMakeFiles/StudentManager.dir/Student.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentManager.dir/Student.cpp.i"
+	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\src\Student.cpp > CMakeFiles\StudentManager.dir\Student.cpp.i
+
+src/CMakeFiles/StudentManager.dir/Student.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentManager.dir/Student.cpp.s"
+	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\src\Student.cpp -o CMakeFiles\StudentManager.dir\Student.cpp.s
 
 # Object files for target StudentManager
 StudentManager_OBJECTS = \
 "CMakeFiles/StudentManager.dir/main.cpp.obj" \
 "CMakeFiles/StudentManager.dir/Admin.cpp.obj" \
 "CMakeFiles/StudentManager.dir/Course.cpp.obj" \
-"CMakeFiles/StudentManager.dir/Teacher.cpp.obj"
+"CMakeFiles/StudentManager.dir/Teacher.cpp.obj" \
+"CMakeFiles/StudentManager.dir/Student.cpp.obj"
 
 # External object files for target StudentManager
 StudentManager_EXTERNAL_OBJECTS =
@@ -142,11 +158,13 @@ src/StudentManager.exe: src/CMakeFiles/StudentManager.dir/main.cpp.obj
 src/StudentManager.exe: src/CMakeFiles/StudentManager.dir/Admin.cpp.obj
 src/StudentManager.exe: src/CMakeFiles/StudentManager.dir/Course.cpp.obj
 src/StudentManager.exe: src/CMakeFiles/StudentManager.dir/Teacher.cpp.obj
+src/StudentManager.exe: src/CMakeFiles/StudentManager.dir/Student.cpp.obj
 src/StudentManager.exe: src/CMakeFiles/StudentManager.dir/build.make
+src/StudentManager.exe: libsqlite3.a
 src/StudentManager.exe: src/CMakeFiles/StudentManager.dir/linkLibs.rsp
 src/StudentManager.exe: src/CMakeFiles/StudentManager.dir/objects1.rsp
 src/StudentManager.exe: src/CMakeFiles/StudentManager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable StudentManager.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable StudentManager.exe"
 	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\StudentManager.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

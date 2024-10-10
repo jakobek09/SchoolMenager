@@ -177,6 +177,30 @@ Course.cpp.s:
 	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\StudentManager.dir\build.make src/CMakeFiles/StudentManager.dir/Course.cpp.s
 .PHONY : Course.cpp.s
 
+Student.obj: Student.cpp.obj
+.PHONY : Student.obj
+
+# target to build an object file
+Student.cpp.obj:
+	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\StudentManager.dir\build.make src/CMakeFiles/StudentManager.dir/Student.cpp.obj
+.PHONY : Student.cpp.obj
+
+Student.i: Student.cpp.i
+.PHONY : Student.i
+
+# target to preprocess a source file
+Student.cpp.i:
+	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\StudentManager.dir\build.make src/CMakeFiles/StudentManager.dir/Student.cpp.i
+.PHONY : Student.cpp.i
+
+Student.s: Student.cpp.s
+.PHONY : Student.s
+
+# target to generate assembly for a file
+Student.cpp.s:
+	cd /d C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\StudentManager.dir\build.make src/CMakeFiles/StudentManager.dir/Student.cpp.s
+.PHONY : Student.cpp.s
+
 Teacher.obj: Teacher.cpp.obj
 .PHONY : Teacher.obj
 
@@ -240,6 +264,9 @@ help:
 	@echo ... Course.obj
 	@echo ... Course.i
 	@echo ... Course.s
+	@echo ... Student.obj
+	@echo ... Student.i
+	@echo ... Student.s
 	@echo ... Teacher.obj
 	@echo ... Teacher.i
 	@echo ... Teacher.s

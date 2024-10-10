@@ -62,6 +62,7 @@ CMAKE_BINARY_DIR = C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/sqlite3.dir/all
 all: src/all
 .PHONY : all
 
@@ -70,6 +71,7 @@ preinstall: src/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/sqlite3.dir/clean
 clean: src/clean
 .PHONY : clean
 
@@ -89,18 +91,44 @@ src/clean: src/CMakeFiles/StudentManager.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/sqlite3.dir
+
+# All Build rule for target.
+CMakeFiles/sqlite3.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlite3.dir\build.make CMakeFiles/sqlite3.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlite3.dir\build.make CMakeFiles/sqlite3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\CMakeFiles --progress-num=7,8 "Built target sqlite3"
+.PHONY : CMakeFiles/sqlite3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sqlite3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/sqlite3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\CMakeFiles 0
+.PHONY : CMakeFiles/sqlite3.dir/rule
+
+# Convenience name for target.
+sqlite3: CMakeFiles/sqlite3.dir/rule
+.PHONY : sqlite3
+
+# clean rule for target.
+CMakeFiles/sqlite3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlite3.dir\build.make CMakeFiles/sqlite3.dir/clean
+.PHONY : CMakeFiles/sqlite3.dir/clean
+
+#=============================================================================
 # Target rules for target src/CMakeFiles/StudentManager.dir
 
 # All Build rule for target.
-src/CMakeFiles/StudentManager.dir/all:
+src/CMakeFiles/StudentManager.dir/all: CMakeFiles/sqlite3.dir/all
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\StudentManager.dir\build.make src/CMakeFiles/StudentManager.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\StudentManager.dir\build.make src/CMakeFiles/StudentManager.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\CMakeFiles --progress-num=1,2,3,4,5 "Built target StudentManager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target StudentManager"
 .PHONY : src/CMakeFiles/StudentManager.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/StudentManager.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/StudentManager.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jakub\OneDrive\Desktop\GITrep\Projekt\build\CMakeFiles 0
 .PHONY : src/CMakeFiles/StudentManager.dir/rule

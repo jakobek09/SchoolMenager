@@ -116,6 +116,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named sqlite3
+
+# Build rule for target.
+sqlite3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sqlite3
+.PHONY : sqlite3
+
+# fast build rule for target.
+sqlite3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlite3.dir\build.make CMakeFiles/sqlite3.dir/build
+.PHONY : sqlite3/fast
+
+#=============================================================================
 # Target rules for targets named StudentManager
 
 # Build rule for target.
@@ -128,6 +141,30 @@ StudentManager/fast:
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\StudentManager.dir\build.make src/CMakeFiles/StudentManager.dir/build
 .PHONY : StudentManager/fast
 
+include/SQLite/sqlite3.obj: include/SQLite/sqlite3.c.obj
+.PHONY : include/SQLite/sqlite3.obj
+
+# target to build an object file
+include/SQLite/sqlite3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlite3.dir\build.make CMakeFiles/sqlite3.dir/include/SQLite/sqlite3.c.obj
+.PHONY : include/SQLite/sqlite3.c.obj
+
+include/SQLite/sqlite3.i: include/SQLite/sqlite3.c.i
+.PHONY : include/SQLite/sqlite3.i
+
+# target to preprocess a source file
+include/SQLite/sqlite3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlite3.dir\build.make CMakeFiles/sqlite3.dir/include/SQLite/sqlite3.c.i
+.PHONY : include/SQLite/sqlite3.c.i
+
+include/SQLite/sqlite3.s: include/SQLite/sqlite3.c.s
+.PHONY : include/SQLite/sqlite3.s
+
+# target to generate assembly for a file
+include/SQLite/sqlite3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlite3.dir\build.make CMakeFiles/sqlite3.dir/include/SQLite/sqlite3.c.s
+.PHONY : include/SQLite/sqlite3.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -137,6 +174,10 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... StudentManager
+	@echo ... sqlite3
+	@echo ... include/SQLite/sqlite3.obj
+	@echo ... include/SQLite/sqlite3.i
+	@echo ... include/SQLite/sqlite3.s
 .PHONY : help
 
 

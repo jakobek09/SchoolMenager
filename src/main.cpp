@@ -1,9 +1,18 @@
 #include "Admin.hpp"
 #include "Teacher.hpp"
+#include "Database.hpp"
 #include <memory>
+#include <filesystem>
 
 int main()
 {
+    std::cout << "Bieżący katalog roboczy: " << std::filesystem::current_path() << std::endl;
+    CourseRegistry& courses = CourseRegistry::getInstance();
+    std::string databaseName = "Students.db";
+    Database database(databaseName);
+
+    database.createStudentTable();
+
     int x;
 
     Admin admin("John", "Doe", "admin1", "password");
@@ -14,7 +23,7 @@ int main()
     admin.addUser(user2);
     admin.addUser(teacher);
     admin.listUsers();
-
+    teacher->addCourse(courses.getCourse("Math", "ma1"));
     teacher->printCourses();
 
     // User* findTeacher = admin.findUser("NAUCZ");

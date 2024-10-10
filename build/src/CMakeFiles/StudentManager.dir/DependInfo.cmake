@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/jakub/OneDrive/Desktop/GITrep/Projekt/src/Admin.cpp" "src/CMakeFiles/StudentManager.dir/Admin.cpp.obj" "gcc" "src/CMakeFiles/StudentManager.dir/Admin.cpp.obj.d"
   "C:/Users/jakub/OneDrive/Desktop/GITrep/Projekt/src/Course.cpp" "src/CMakeFiles/StudentManager.dir/Course.cpp.obj" "gcc" "src/CMakeFiles/StudentManager.dir/Course.cpp.obj.d"
+  "C:/Users/jakub/OneDrive/Desktop/GITrep/Projekt/src/Student.cpp" "src/CMakeFiles/StudentManager.dir/Student.cpp.obj" "gcc" "src/CMakeFiles/StudentManager.dir/Student.cpp.obj.d"
   "C:/Users/jakub/OneDrive/Desktop/GITrep/Projekt/src/Teacher.cpp" "src/CMakeFiles/StudentManager.dir/Teacher.cpp.obj" "gcc" "src/CMakeFiles/StudentManager.dir/Teacher.cpp.obj.d"
   "C:/Users/jakub/OneDrive/Desktop/GITrep/Projekt/src/main.cpp" "src/CMakeFiles/StudentManager.dir/main.cpp.obj" "gcc" "src/CMakeFiles/StudentManager.dir/main.cpp.obj.d"
   )

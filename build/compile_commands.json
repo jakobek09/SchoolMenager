@@ -1,0 +1,38 @@
+[
+{
+  "directory": "C:/Users/jakub/OneDrive/Desktop/GITrep/Projekt/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/sqlite3.dir/includes_C.rsp -g -w -o CMakeFiles\\sqlite3.dir\\include\\SQLite\\sqlite3.c.obj -c C:\\Users\\jakub\\OneDrive\\Desktop\\GITrep\\Projekt\\include\\SQLite\\sqlite3.c",
+  "file": "C:/Users/jakub/OneDrive/Desktop/GITrep/Projekt/include/SQLite/sqlite3.c",
+  "output": "CMakeFiles/sqlite3.dir/include/SQLite/sqlite3.c.obj"
+},
+{
+  "directory": "C:/Users/jakub/OneDrive/Desktop/GITrep/Projekt/build/src",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/StudentManager.dir/includes_CXX.rsp -g -std=c++1z -o CMakeFiles\\StudentManager.dir\\main.cpp.obj -c C:\\Users\\jakub\\OneDrive\\Desktop\\GITrep\\Projekt\\src\\main.cpp",
+  "file": "C:/Users/jakub/OneDrive/Desktop/GITrep/Projekt/src/main.cpp",
+  "output": "src/CMakeFiles/StudentManager.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/jakub/OneDrive/Desktop/GITrep/Projekt/build/src",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/StudentManager.dir/includes_CXX.rsp -g -std=c++1z -o CMakeFiles\\StudentManager.dir\\Admin.cpp.obj -c C:\\Users\\jakub\\OneDrive\\Desktop\\GITrep\\Projekt\\src\\Admin.cpp",
+  "file": "C:/Users/jakub/OneDrive/Desktop/GITrep/Projekt/src/Admin.cpp",
+  "output": "src/CMakeFiles/StudentManager.dir/Admin.cpp.obj"
+},
+{
+  "directory": "C:/Users/jakub/OneDrive/Desktop/GITrep/Projekt/build/src",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/StudentManager.dir/includes_CXX.rsp -g -std=c++1z -o CMakeFiles\\StudentManager.dir\\Course.cpp.obj -c C:\\Users\\jakub\\OneDrive\\Desktop\\GITrep\\Projekt\\src\\Course.cpp",
+  "file": "C:/Users/jakub/OneDrive/Desktop/GITrep/Projekt/src/Course.cpp",
+  "output": "src/CMakeFiles/StudentManager.dir/Course.cpp.obj"
+},
+{
+  "directory": "C:/Users/jakub/OneDrive/Desktop/GITrep/Projekt/build/src",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/StudentManager.dir/includes_CXX.rsp -g -std=c++1z -o CMakeFiles\\StudentManager.dir\\Teacher.cpp.obj -c C:\\Users\\jakub\\OneDrive\\Desktop\\GITrep\\Projekt\\src\\Teacher.cpp",
+  "file": "C:/Users/jakub/OneDrive/Desktop/GITrep/Projekt/src/Teacher.cpp",
+  "output": "src/CMakeFiles/StudentManager.dir/Teacher.cpp.obj"
+},
+{
+  "directory": "C:/Users/jakub/OneDrive/Desktop/GITrep/Projekt/build/src",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/StudentManager.dir/includes_CXX.rsp -g -std=c++1z -o CMakeFiles\\StudentManager.dir\\Student.cpp.obj -c C:\\Users\\jakub\\OneDrive\\Desktop\\GITrep\\Projekt\\src\\Student.cpp",
+  "file": "C:/Users/jakub/OneDrive/Desktop/GITrep/Projekt/src/Student.cpp",
+  "output": "src/CMakeFiles/StudentManager.dir/Student.cpp.obj"
+}
+]
