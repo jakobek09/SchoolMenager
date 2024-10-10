@@ -1,0 +1,5 @@
+C:/Users/jakub/OneDrive/Desktop/GITrep/Projekt/build/CMakeFiles/edit_cache.dir
+C:/Users/jakub/OneDrive/Desktop/GITrep/Projekt/build/CMakeFiles/rebuild_cache.dir
+C:/Users/jakub/OneDrive/Desktop/GITrep/Projekt/build/src/CMakeFiles/StudentManager.dir
+C:/Users/jakub/OneDrive/Desktop/GITrep/Projekt/build/src/CMakeFiles/edit_cache.dir
+C:/Users/jakub/OneDrive/Desktop/GITrep/Projekt/build/src/CMakeFiles/rebuild_cache.dir

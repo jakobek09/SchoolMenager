@@ -1,0 +1,5 @@
+# Dodanie plików źródłowych
+add_executable(StudentManager main.cpp Admin.cpp Course.cpp Teacher.cpp)
+
+# Uwzględnienie katalogu z plikami nagłówkowymi (src)
+target_include_directories(StudentManager PRIVATE ${PROJECT_SOURCE_DIR}/src)
