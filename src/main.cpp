@@ -8,7 +8,7 @@ int main()
 {
     std::cout << "Bieżący katalog roboczy: " << std::filesystem::current_path() << std::endl;
     CourseRegistry& courses = CourseRegistry::getInstance();
-    std::string databaseName = "Students.db";
+    std::string databaseName = "Students";
     Database database(databaseName);
 
     database.createStudentTable();
